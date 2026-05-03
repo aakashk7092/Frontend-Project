@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://images.unsplash.com" />
+<link rel="preconnect" href="https://unsplash.com" crossorigin />
+<link rel="preload" as="image" href="https://unsplash.com/photos/VJ2s0c20qCo/download?force=true" />
+<link rel="stylesheet" href="style.css" />
+  <title>AlphaFit Gym | Contact</title>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="AlphaFit Gym home">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">AlphaFit Gym</span>
+    </a>
+
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">☰</button>
+
+    <nav class="nav-links" data-nav-links>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="nutrition.html">Nutrition</a>
+      <a href="membership.html">Membership</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero" style="--hero-image: url('https://unsplash.com/photos/VJ2s0c20qCo/download?force=true');">
+    <div class="container page-hero-inner reveal">
+      <span class="badge">Contact and booking</span>
+      <h1>Book a session or send a quick enquiry.</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div class="contact-info reveal">
+        <div class="card">
+          <div class="card-body">
+            <span class="tag">Contact details</span>
+            <h2>We are here to help</h2>
+            <div class="contact-pills">
+              <div class="contact-pill"><strong>Phone</strong><span>+91 98765 43210</span></div>
+              <div class="contact-pill"><strong>Email</strong><span>contact@alphafitgym.com</span></div>
+              <div class="contact-pill"><strong>Hours</strong><span>Monday to Saturday, 6 AM - 10 PM</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-shell reveal">
+        <span class="badge">Book a session</span>
+        <h2>Send your details</h2>
+        <p class="helper">Fill this form to book a class, ask for support, or request a callback.</p>
+
+        <form data-contact-form>
+          <div class="field-grid">
+            <label class="form-field">
+              <span>Full name</span>
+              <input type="text" name="name" placeholder="Full name" required />
+            </label>
+            <label class="form-field">
+              <span>Email address</span>
+              <input type="email" name="email" placeholder="Email address" required />
+            </label>
+          </div>
+          <div class="field-grid">
+            <label class="form-field">
+              <span>Phone number</span>
+              <input type="tel" name="phone" placeholder="Phone number" required />
+            </label>
+            <label class="form-field">
+              <span>Service</span>
+              <select name="service" required>
+                <option value="">Choose a service</option>
+                <option>Strength Training</option>
+                <option>Cardio Fitness</option>
+                <option>Yoga & Recovery</option>
+                <option>Personal Training</option>
+                <option>Nutrition Consultation</option>
+              </select>
+            </label>
+          </div>
+          <div class="field-grid">
+            <label class="form-field">
+              <span>Preferred date</span>
+              <input type="date" name="preferredDate" />
+            </label>
+            <label class="form-field">
+              <span>Preferred time</span>
+              <input type="time" name="preferredTime" />
+            </label>
+          </div>
+          <label class="form-field full-width">
+            <span>Your goal</span>
+            <input type="text" name="goal" placeholder="Your goal (fat loss, muscle gain, flexibility...)" />
+          </label>
+          <label class="form-field full-width">
+            <span>Message</span>
+            <textarea name="message" placeholder="Tell us what kind of help you need" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Submit Booking</button>
+          <div class="status" data-form-status></div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="brand footer-brand" href="index.html" aria-label="Back to home">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">AlphaFit Gym</span>
+    </a>
+    <p>© 2026 AlphaFit Gym.</p>
+  </div>
+</footer>
+
+<button class="scroll-top" data-scroll-top aria-label="Scroll to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
