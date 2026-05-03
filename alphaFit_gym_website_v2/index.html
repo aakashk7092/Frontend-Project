@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://images.unsplash.com" />
-<link rel="preconnect" href="https://unsplash.com" crossorigin />
-<link rel="preload" as="image" href="https://unsplash.com/photos/J2PUYtMwjac/download?force=true" />
+<meta name="description" content="AlphaFit Gym — Expert coaching, structured programs, and a focused training culture in Kolkata. Strength, cardio, yoga, and nutrition under one roof." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="style.css" />
-  <title>AlphaFit Gym | Home</title>
+<title>AlphaFit Gym | Train Smarter. Feel Better.</title>
 </head>
 <body>
+
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="AlphaFit Gym home">
       <span class="brand-mark">A</span>
       <span class="brand-text">AlphaFit Gym</span>
     </a>
-
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">☰</button>
-
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Light mode</button>
     <nav class="nav-links" data-nav-links>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -29,131 +29,288 @@
     </nav>
   </div>
 </header>
+
 <main>
-  <section class="hero" style="--hero-image: url('https://unsplash.com/photos/J2PUYtMwjac/download?force=true');">
+
+  <!-- HERO -->
+  <section class="hero" style="--hero-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600&q=80');">
     <div class="container hero-grid">
       <div class="hero-copy reveal">
-        <span class="badge">Modern training. Calm progress.</span>
-        <h1>Train smarter, feel better, and stay consistent.</h1>
-        <p>
-          AlphaFit Gym is a complete fitness experience built around expert coaching, supportive routines,
-          and a relaxing atmosphere that helps members stay focused. From strength sessions to recovery flows,
-          everything is arranged to make healthy habits easier to follow.
-        </p>
+        <div class="hero-eyebrow">
+          <span class="line"></span>
+          <span>Modern Training. Calm Progress.</span>
+        </div>
+        <h1>Train<em>Smarter.</em>Feel Better.</h1>
+        <p>AlphaFit Gym is a complete fitness experience built around expert coaching, supportive routines, and a focused atmosphere that makes consistent training easy.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="programs.html">Explore Programs</a>
-          <a class="btn btn-secondary" href="contact.html">Book a Session</a>
+          <a class="btn btn-primary btn-lg" href="programs.html">Explore Programs</a>
+          <a class="btn btn-secondary btn-lg" href="contact.html">Book a Session</a>
         </div>
       </div>
-
       <aside class="hero-panel reveal">
         <div class="panel-head">
           <div>
             <span class="tag">Today at AlphaFit</span>
-            <h2>Open daily</h2>
+            <h2>Open Daily</h2>
           </div>
-          <span class="pill">6 AM - 10 PM</span>
+          <span class="pill">6 AM – 10 PM</span>
         </div>
         <div class="mini-stats">
           <div>
             <strong data-count="120" data-suffix="+">120+</strong>
-            <span>Active members</span>
+            <span>Active Members</span>
           </div>
           <div>
             <strong data-count="18" data-suffix="+">18+</strong>
-            <span>Training options</span>
+            <span>Training Options</span>
           </div>
           <div>
             <strong data-count="8" data-suffix="+">8+</strong>
-            <span>Certified coaches</span>
+            <span>Certified Coaches</span>
           </div>
           <div>
             <strong data-count="24" data-suffix="/7">24/7</strong>
-            <span>Support hours</span>
+            <span>Support Hours</span>
           </div>
         </div>
       </aside>
     </div>
   </section>
 
+  <!-- STATS STRIP -->
   <section class="stats-strip">
     <div class="container stats-grid reveal">
-      <div class="stat-card"><strong data-count="350" data-suffix="+">350+</strong><span>Successful transformations</span></div>
-      <div class="stat-card"><strong data-count="95" data-suffix="%">95%</strong><span>Member satisfaction</span></div>
-      <div class="stat-card"><strong data-count="12" data-suffix=" yrs">12 yrs</strong><span>Years of training experience</span></div>
-      <div class="stat-card"><strong data-count="6" data-suffix=" days">6 days</strong><span>Weekly class rhythm</span></div>
+      <div class="stat-card">
+        <strong data-count="350" data-suffix="+">350+</strong>
+        <span>Successful Transformations</span>
+      </div>
+      <div class="stat-card">
+        <strong data-count="95" data-suffix="%">95%</strong>
+        <span>Member Satisfaction</span>
+      </div>
+      <div class="stat-card">
+        <strong data-count="12" data-suffix=" yrs">12 yrs</strong>
+        <span>Training Experience</span>
+      </div>
+      <div class="stat-card">
+        <strong data-count="6" data-suffix=" days">6 days</strong>
+        <span>Weekly Class Rhythm</span>
+      </div>
     </div>
   </section>
 
+  <!-- FEATURED CLASSES -->
   <section class="section">
     <div class="container">
       <div class="section-heading reveal">
-        <span class="badge">Featured classes</span>
-        <h2>Pick the workout that matches your goal</h2>
+        <span class="badge">Featured Classes</span>
+        <h2>Pick the Workout That Matches Your Goal</h2>
+        <p>Every session is structured to give members a clear focus, not a random workout experience.</p>
       </div>
-
       <div class="grid-3">
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/J2PUYtMwjac/download?force=true" alt="Strength training in a gym" loading="lazy" decoding="async" /></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80" alt="Strength training session" loading="lazy" decoding="async" />
+          </div>
           <div class="card-body">
             <span class="tag">Strength</span>
-            <h3>Build power with guided lifting</h3>
-            <p>Structured strength sessions help beginners and regular trainees improve form, stamina, and confidence.</p>
+            <h3>Build Power with Guided Lifting</h3>
+            <p>Structured strength sessions help beginners and experienced trainees improve form, stamina, and confidence.</p>
+            <div style="margin-top:16px;">
+              <a class="btn btn-secondary" href="programs.html">View Program</a>
+            </div>
           </div>
         </article>
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/t1NEMSm1rgI/download?force=true" alt="Yoga and recovery session" loading="lazy" decoding="async" /></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=600&q=80" alt="Yoga and recovery session" loading="lazy" decoding="async" />
+          </div>
           <div class="card-body">
             <span class="tag">Recovery</span>
-            <h3>Relax with mobility and yoga</h3>
-            <p>Slow-paced recovery classes support flexibility, breathing, and a calmer workout routine.</p>
+            <h3>Relax with Mobility and Yoga</h3>
+            <p>Slow-paced recovery classes support flexibility, breathing, and a calmer approach to training.</p>
+            <div style="margin-top:16px;">
+              <a class="btn btn-secondary" href="programs.html">View Program</a>
+            </div>
           </div>
         </article>
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/QvkAQTNj4zk/download?force=true" alt="Healthy food and meal prep" loading="lazy" decoding="async" /></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80" alt="Nutrition guidance" loading="lazy" decoding="async" />
+          </div>
           <div class="card-body">
             <span class="tag">Nutrition</span>
-            <h3>Support your body with better meals</h3>
+            <h3>Support Your Body with Better Meals</h3>
             <p>Simple meal guidance makes it easier to match your training with the right fuel every day.</p>
+            <div style="margin-top:16px;">
+              <a class="btn btn-secondary" href="nutrition.html">Learn More</a>
+            </div>
           </div>
         </article>
       </div>
     </div>
   </section>
 
+  <!-- WHY JOIN -->
   <section class="section alt-section">
     <div class="container split-layout">
       <div class="content-block reveal">
-        <span class="badge">Why people join</span>
-        <h2>A gym experience built around comfort and consistency</h2>
+        <span class="badge">Why People Join</span>
+        <h2>A Gym Built Around Comfort and Consistency</h2>
+        <p class="lead">AlphaFit is designed for people who want real progress without a confusing routine.</p>
+        <div class="detail-list">
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Coaching That Explains the Why</strong>
+              <p>Members understand what they are doing, not just what rep to perform next.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Plans That Respect Real Schedules</strong>
+              <p>Routines are adjusted around work, college, family, and recovery capacity.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Atmosphere That Feels Focused</strong>
+              <p>The environment is energetic without becoming intimidating or chaotic.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:32px;">
+          <a class="btn btn-primary" href="about.html">About AlphaFit</a>
+        </div>
       </div>
-
       <div class="card reveal">
+        <div class="card-media">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80" alt="Personal training session" loading="lazy" decoding="async" />
+        </div>
         <div class="card-body">
-          <span class="tag">Quick highlights</span>
-          <h3>What a visitor learns on the homepage</h3>
+          <span class="tag">Quick Highlights</span>
+          <h3>Everything in One Place</h3>
           <div class="info-grid">
             <div><strong>Hours</strong><span>6 AM to 10 PM</span></div>
             <div><strong>Training</strong><span>Strength, cardio, yoga</span></div>
-            <div><strong>Support</strong><span>Trainers and booking help</span></div>
-            <div><strong>Focus</strong><span>Consistency and confidence</span></div>
+            <div><strong>Support</strong><span>Certified coaches</span></div>
+            <div><strong>Focus</strong><span>Consistency & confidence</span></div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="badge">Member Stories</span>
+        <h2>Results That Speak for Themselves</h2>
+        <p>Real members, real progress. Here is what the AlphaFit community has to say.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">I joined with zero gym experience. Within three months I felt stronger than I ever had. The coaches never made me feel lost or out of place.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <div class="author-name">Rahul Mehta</div>
+              <div class="author-meta">Member since 2024 · Strength Training</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">The nutrition guidance combined with the workout plan changed everything. Lost 12 kg in five months and actually kept it off.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">P</div>
+            <div>
+              <div class="author-name">Priya Sharma</div>
+              <div class="author-meta">Member since 2023 · Weight Loss</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-text">The yoga and recovery sessions are a game changer. My posture improved drastically and the back pain I had for years is almost gone.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div class="author-name">Arjun Das</div>
+              <div class="author-meta">Member since 2024 · Mobility</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Start Your Journey Today</h2>
+        <p>Book a free trial session and see why hundreds of members trust AlphaFit with their fitness goals.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-white btn-lg" href="contact.html">Book Free Trial</a>
+        <a class="btn btn-outline-white btn-lg" href="membership.html">View Plans</a>
+      </div>
+    </div>
+  </section>
+
 </main>
+
 <footer class="footer">
-  <div class="container footer-inner">
-    <a class="brand footer-brand" href="index.html" aria-label="Back to home">
-      <span class="brand-mark">A</span>
-      <span class="brand-text">AlphaFit Gym</span>
-    </a>
-    <p>© 2026 AlphaFit Gym.</p>
+  <div class="container footer-shell">
+    <div class="footer-grid">
+      <article class="footer-copy">
+        <a class="brand footer-brand" href="index.html" aria-label="Back to home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AlphaFit Gym</span>
+        </a>
+        <p>AlphaFit Gym is a modern training space built for people who want practical coaching, thoughtful programming, and a place that makes consistency easier.</p>
+        <span class="tag">Strength, Recovery and Nutrition Under One Roof</span>
+      </article>
+      <nav aria-label="Footer quick links">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About the gym</a></li>
+          <li><a href="programs.html">Training programs</a></li>
+          <li><a href="nutrition.html">Nutrition guidance</a></li>
+          <li><a href="membership.html">Membership plans</a></li>
+          <li><a href="contact.html">Book a session</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3 class="footer-title">Hours</h3>
+        <ul class="footer-contact">
+          <li><strong>Monday to Friday</strong>6:00 AM – 10:00 PM</li>
+          <li><strong>Saturday</strong>7:00 AM – 9:00 PM</li>
+          <li><strong>Sunday</strong>8:00 AM – 1:00 PM</li>
+        </ul>
+      </section>
+      <address class="footer-address">
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-contact">
+          <li><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><strong>Email</strong><a href="mailto:contact@alphafitgym.com">contact@alphafitgym.com</a></li>
+          <li><strong>Location</strong>24 Lake View Road, Kolkata</li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 AlphaFit Gym. Built for stronger habits and steady progress.</p>
+      <span class="tag">Open for Consultations and Trial Sessions</span>
+    </div>
   </div>
 </footer>
 
-<button class="scroll-top" data-scroll-top aria-label="Scroll to top">↑</button>
+<button class="scroll-top" data-scroll-top aria-label="Scroll to top">&#8593;</button>
 <script src="script.js"></script>
 </body>
 </html>

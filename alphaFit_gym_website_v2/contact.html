@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://images.unsplash.com" />
-<link rel="preconnect" href="https://unsplash.com" crossorigin />
-<link rel="preload" as="image" href="https://unsplash.com/photos/VJ2s0c20qCo/download?force=true" />
+<meta name="description" content="Contact AlphaFit Gym — Book a session, ask about membership, or request a callback from one of our coaches in Kolkata." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="style.css" />
-  <title>AlphaFit Gym | Contact</title>
+<title>AlphaFit Gym | Contact and Booking</title>
 </head>
 <body>
+
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="AlphaFit Gym home">
       <span class="brand-mark">A</span>
       <span class="brand-text">AlphaFit Gym</span>
     </a>
-
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">☰</button>
-
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Light mode</button>
     <nav class="nav-links" data-nav-links>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -29,60 +29,90 @@
     </nav>
   </div>
 </header>
+
 <main>
-  <section class="page-hero" style="--hero-image: url('https://unsplash.com/photos/VJ2s0c20qCo/download?force=true');">
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80');">
     <div class="container page-hero-inner reveal">
-      <span class="badge">Contact and booking</span>
-      <h1>Book a session or send a quick enquiry.</h1>
+      <span class="badge">Contact and Booking</span>
+      <h1>Book a Session, Ask a Question, or Plan Your First Visit with the Team.</h1>
+      <p>We reply to fitness enquiries, trial session requests, and membership questions with practical next steps.</p>
     </div>
   </section>
 
+  <!-- CONTACT LAYOUT -->
   <section class="section">
     <div class="container contact-layout">
+
+      <!-- LEFT: INFO -->
       <div class="contact-info reveal">
         <div class="card">
           <div class="card-body">
-            <span class="tag">Contact details</span>
-            <h2>We are here to help</h2>
+            <span class="tag">Contact Details</span>
+            <h2 style="font-family:var(--font-display); font-size:clamp(1.8rem,3vw,2.8rem); text-transform:uppercase; letter-spacing:0.02em; margin:12px 0 20px;">We Are Here to Help</h2>
             <div class="contact-pills">
               <div class="contact-pill"><strong>Phone</strong><span>+91 98765 43210</span></div>
               <div class="contact-pill"><strong>Email</strong><span>contact@alphafitgym.com</span></div>
-              <div class="contact-pill"><strong>Hours</strong><span>Monday to Saturday, 6 AM - 10 PM</span></div>
+              <div class="contact-pill"><strong>Mon – Fri</strong><span>6:00 AM – 10:00 PM</span></div>
+              <div class="contact-pill"><strong>Saturday</strong><span>7:00 AM – 9:00 PM</span></div>
+              <div class="contact-pill"><strong>Sunday</strong><span>8:00 AM – 1:00 PM</span></div>
+              <div class="contact-pill"><strong>Location</strong><span>24 Lake View Road, Kolkata</span></div>
+            </div>
+            <p class="note">Most new members begin with a quick conversation about goals, schedule, and the type of support they want. We keep it simple.</p>
+          </div>
+        </div>
+
+        <div class="schedule-block">
+          <strong>What to Expect After Submitting</strong>
+          <span>The team will reply within 24 hours to confirm your booking, suggest a coach, or answer any questions you have about membership or programs.</span>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <span class="tag">Get Here</span>
+            <h3 style="font-family:var(--font-condensed); font-weight:800; font-size:1.1rem; letter-spacing:0.05em; text-transform:uppercase; margin:10px 0 12px;">24 Lake View Road, Kolkata</h3>
+            <p style="color:var(--muted2); font-size:0.9rem; line-height:1.6; margin-bottom:14px;">Near Lake View Park, 5 minutes from Rabindra Sarobar metro station. Street parking available. Auto-rickshaws and ride-share apps stop directly outside.</p>
+            <div style="background:var(--dark2); border:1px solid var(--border); border-radius:var(--radius); height:180px; display:flex; align-items:center; justify-content:center; font-family:var(--font-condensed); font-weight:700; font-size:0.85rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">
+              Map Placeholder — Embed Google Maps here
             </div>
           </div>
         </div>
       </div>
 
+      <!-- RIGHT: FORM -->
       <div class="form-shell reveal">
-        <span class="badge">Book a session</span>
-        <h2>Send your details</h2>
-        <p class="helper">Fill this form to book a class, ask for support, or request a callback.</p>
+        <span class="badge">Book a Session</span>
+        <h2>Send Your Details</h2>
+        <p class="helper">Fill this form to book a class, ask for support, or request a callback with the right coach.</p>
 
-        <form data-contact-form>
+        <form data-contact-form novalidate>
           <div class="field-grid">
             <label class="form-field">
               <span>Full name</span>
-              <input type="text" name="name" placeholder="Full name" required />
+              <input type="text" name="name" placeholder="Your full name" required />
             </label>
             <label class="form-field">
               <span>Email address</span>
-              <input type="email" name="email" placeholder="Email address" required />
+              <input type="email" name="email" placeholder="Your email address" required />
             </label>
           </div>
           <div class="field-grid">
             <label class="form-field">
               <span>Phone number</span>
-              <input type="tel" name="phone" placeholder="Phone number" required />
+              <input type="tel" name="phone" placeholder="+91 00000 00000" required />
             </label>
             <label class="form-field">
               <span>Service</span>
               <select name="service" required>
                 <option value="">Choose a service</option>
                 <option>Strength Training</option>
-                <option>Cardio Fitness</option>
-                <option>Yoga & Recovery</option>
+                <option>Cardio and Conditioning</option>
+                <option>Yoga and Recovery</option>
                 <option>Personal Training</option>
                 <option>Nutrition Consultation</option>
+                <option>Free Trial Session</option>
+                <option>Membership Enquiry</option>
               </select>
             </label>
           </div>
@@ -96,32 +126,103 @@
               <input type="time" name="preferredTime" />
             </label>
           </div>
-          <label class="form-field full-width">
-            <span>Your goal</span>
-            <input type="text" name="goal" placeholder="Your goal (fat loss, muscle gain, flexibility...)" />
+          <label class="form-field">
+            <span>Your fitness goal</span>
+            <input type="text" name="goal" placeholder="Fat loss, muscle gain, flexibility, general fitness..." />
           </label>
-          <label class="form-field full-width">
+          <label class="form-field">
             <span>Message</span>
-            <textarea name="message" placeholder="Tell us what kind of help you need" required></textarea>
+            <textarea name="message" placeholder="Tell us what kind of help you need, your experience level, or any questions you have." required></textarea>
           </label>
-          <button class="btn btn-primary" type="submit">Submit Booking</button>
+          <button class="btn btn-primary btn-lg" type="submit">Submit Booking Request</button>
           <div class="status" data-form-status></div>
         </form>
       </div>
     </div>
   </section>
+
+  <!-- MINI FAQ -->
+  <section class="section alt-section">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="badge">Before You Visit</span>
+        <h2>Quick Answers</h2>
+        <p>A few things most first-time visitors want to know before coming in.</p>
+      </div>
+      <div class="grid-3">
+        <div class="card reveal">
+          <div class="card-body">
+            <span class="tag">First Visit</span>
+            <h3>What Should I Bring?</h3>
+            <p>Comfortable workout clothes, sports shoes, a water bottle, and a small towel. Everything else is provided.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-body">
+            <span class="tag">Trial Session</span>
+            <h3>Is There a Free Trial?</h3>
+            <p>Yes. New members can attend one free trial session. Select "Free Trial Session" in the booking form above.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-body">
+            <span class="tag">Membership</span>
+            <h3>When Does My Plan Start?</h3>
+            <p>Your membership starts from the day you sign up. Month-to-month billing with no long-term commitment required.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
+
 <footer class="footer">
-  <div class="container footer-inner">
-    <a class="brand footer-brand" href="index.html" aria-label="Back to home">
-      <span class="brand-mark">A</span>
-      <span class="brand-text">AlphaFit Gym</span>
-    </a>
-    <p>© 2026 AlphaFit Gym.</p>
+  <div class="container footer-shell">
+    <div class="footer-grid">
+      <article class="footer-copy">
+        <a class="brand footer-brand" href="index.html" aria-label="Back to home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AlphaFit Gym</span>
+        </a>
+        <p>AlphaFit Gym is a modern training space built for people who want practical coaching, thoughtful programming, and a place that makes consistency easier.</p>
+        <span class="tag">Strength, Recovery and Nutrition Under One Roof</span>
+      </article>
+      <nav aria-label="Footer quick links">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About the gym</a></li>
+          <li><a href="programs.html">Training programs</a></li>
+          <li><a href="nutrition.html">Nutrition guidance</a></li>
+          <li><a href="membership.html">Membership plans</a></li>
+          <li><a href="contact.html">Book a session</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3 class="footer-title">Hours</h3>
+        <ul class="footer-contact">
+          <li><strong>Monday to Friday</strong>6:00 AM – 10:00 PM</li>
+          <li><strong>Saturday</strong>7:00 AM – 9:00 PM</li>
+          <li><strong>Sunday</strong>8:00 AM – 1:00 PM</li>
+        </ul>
+      </section>
+      <address class="footer-address">
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-contact">
+          <li><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><strong>Email</strong><a href="mailto:contact@alphafitgym.com">contact@alphafitgym.com</a></li>
+          <li><strong>Location</strong>24 Lake View Road, Kolkata</li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 AlphaFit Gym. Built for stronger habits and steady progress.</p>
+      <span class="tag">Open for Consultations and Trial Sessions</span>
+    </div>
   </div>
 </footer>
 
-<button class="scroll-top" data-scroll-top aria-label="Scroll to top">↑</button>
+<button class="scroll-top" data-scroll-top aria-label="Scroll to top">&#8593;</button>
 <script src="script.js"></script>
 </body>
 </html>

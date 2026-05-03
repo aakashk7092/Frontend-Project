@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://images.unsplash.com" />
-<link rel="preconnect" href="https://unsplash.com" crossorigin />
-<link rel="preload" as="image" href="https://unsplash.com/photos/cwhGcdX1ZDI/download?force=true" />
+<meta name="description" content="AlphaFit Gym membership plans — Basic, Trainer Plus, and All Access options to match your schedule, support needs, and training goals." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="style.css" />
-  <title>AlphaFit Gym | Membership</title>
+<title>AlphaFit Gym | Membership Plans</title>
 </head>
 <body>
+
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="AlphaFit Gym home">
       <span class="brand-mark">A</span>
       <span class="brand-text">AlphaFit Gym</span>
     </a>
-
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">☰</button>
-
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Light mode</button>
     <nav class="nav-links" data-nav-links>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -29,71 +29,226 @@
     </nav>
   </div>
 </header>
+
 <main>
-  <section class="page-hero" style="--hero-image: url('https://unsplash.com/photos/cwhGcdX1ZDI/download?force=true');">
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=1600&q=80');">
     <div class="container page-hero-inner reveal">
-      <span class="badge">Membership</span>
-      <h1>Choose a plan that fits your routine.</h1>
+      <span class="badge">Membership Plans</span>
+      <h1>Choose a Plan That Matches Your Schedule, Support Needs, and Training Goals.</h1>
+      <p>Every membership is designed to give members clarity on what they receive and how they can grow from it.</p>
     </div>
   </section>
 
+  <!-- PRICING CARDS -->
   <section class="section">
     <div class="container">
       <div class="section-heading reveal">
         <span class="badge">Plans</span>
-        <h2>Flexible options for different needs</h2>
+        <h2>Flexible Options for Different Needs</h2>
+        <p>No hidden fees. No confusing add-ons. Just clear plans with honest value.</p>
       </div>
       <div class="grid-3 pricing-grid">
-        <article class="card reveal"><div class="card-body"><span class="tag">Basic</span><h3>Monthly access</h3><div class="price">₹1,499</div><p>Gym floor access, cardio equipment, and standard support for new members.</p></div></article>
-        <article class="card reveal featured"><div class="card-body"><span class="tag">Popular</span><h3>Trainer plus</h3><div class="price">₹2,999</div><p>Includes coaching sessions, class booking, and nutrition guidance for better results.</p></div></article>
-        <article class="card reveal"><div class="card-body"><span class="tag">Premium</span><h3>All access</h3><div class="price">₹4,999</div><p>Best for serious members who want classes, trainer support, and progress reviews.</p></div></article>
+        <article class="card reveal">
+          <div class="card-body">
+            <span class="tag">Basic</span>
+            <h3>Monthly Access</h3>
+            <div class="price">&#8377;1,499<span class="price-period">/ month</span></div>
+            <p>Gym floor access, cardio equipment, and standard support for new members starting their journey.</p>
+            <ul class="pricing-points">
+              <li>Open gym hours (6 AM – 10 PM)</li>
+              <li>Cardio and strength zones</li>
+              <li>General trainer assistance</li>
+              <li>Locker room access</li>
+              <li>Member app access</li>
+            </ul>
+            <div class="pricing-cta">
+              <a class="btn btn-secondary" href="contact.html">Get Started</a>
+            </div>
+          </div>
+        </article>
+        <article class="card featured reveal">
+          <div class="card-body">
+            <span class="tag">Popular</span>
+            <h3>Trainer Plus</h3>
+            <div class="price">&#8377;2,999<span class="price-period">/ month</span></div>
+            <p>Includes coaching sessions, class booking, and nutrition guidance for better, faster results.</p>
+            <ul class="pricing-points">
+              <li>Everything in Basic</li>
+              <li>4 personal coaching sessions</li>
+              <li>Mobility and recovery classes</li>
+              <li>Simple nutrition direction</li>
+              <li>Progress tracking and check-ins</li>
+              <li>Priority class booking</li>
+            </ul>
+            <div class="pricing-cta">
+              <a class="btn btn-primary" href="contact.html">Get Started</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-body">
+            <span class="tag">Premium</span>
+            <h3>All Access</h3>
+            <div class="price">&#8377;4,999<span class="price-period">/ month</span></div>
+            <p>Best for serious members who want classes, daily trainer support, and personalised progress reviews.</p>
+            <ul class="pricing-points">
+              <li>Everything in Trainer Plus</li>
+              <li>Unlimited personal coaching</li>
+              <li>Custom nutrition and meal plan</li>
+              <li>Weekly progress reviews</li>
+              <li>Priority coaching support</li>
+              <li>Personalised habit planning</li>
+              <li>Guest passes (2 per month)</li>
+            </ul>
+            <div class="pricing-cta">
+              <a class="btn btn-secondary" href="contact.html">Get Started</a>
+            </div>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
+  <!-- BENEFITS + FAQ -->
   <section class="section alt-section">
-    <div class="container split-layout">
+    <div class="container split-layout top">
       <div class="content-block reveal">
         <span class="badge">Benefits</span>
-        <h2>Why membership feels valuable</h2>
+        <h2>Why Membership Feels Valuable</h2>
         <div class="detail-list">
-          <div class="detail-item"><span class="dot"></span><div><strong>Goal tracking</strong><p>Track progress with regular reviews and milestone planning.</p></div></div>
-          <div class="detail-item"><span class="dot"></span><div><strong>Flexible booking</strong><p>Reserve a slot quickly through the contact form.</p></div></div>
-          <div class="detail-item"><span class="dot"></span><div><strong>Added value</strong><p>Offer nutrition advice, classes, and special events later.</p></div></div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Goal Tracking</strong>
+              <p>Track progress with regular reviews and milestone planning throughout your journey.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Flexible Booking</strong>
+              <p>Reserve a slot quickly through the contact form or the member app, any time.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Nutrition Integration</strong>
+              <p>Nutrition advice is built into Trainer Plus and All Access memberships.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>No Lock-In Contracts</strong>
+              <p>Month-to-month memberships mean no long-term commitment required.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Free Trial Available</strong>
+              <p>New members can book a free trial session before choosing their plan.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:32px;">
+          <a class="btn btn-primary" href="contact.html">Book a Free Trial</a>
         </div>
       </div>
       <div class="faq reveal" data-faq>
-        <div class="section-heading left-align">
+        <div class="section-heading left">
           <span class="badge">FAQ</span>
-          <h2>Common questions</h2>
+          <h2>Common Questions</h2>
         </div>
         <div class="faq-item open" data-accordion>
           <button class="faq-question" type="button">Can I book a session online?<span>+</span></button>
-          <div class="faq-answer"><p>Yes. The contact page is designed as a booking form and stores requests in Google Sheets through Apps Script.</p></div>
+          <div class="faq-answer"><p>Yes. The contact page has a booking form where you can submit your preferred date, time, and the type of session you want. The team will confirm within 24 hours.</p></div>
         </div>
         <div class="faq-item" data-accordion>
           <button class="faq-question" type="button">Can I change my plan later?<span>+</span></button>
-          <div class="faq-answer"><p>Yes. You can edit the pricing and upgrade options in this page anytime.</p></div>
+          <div class="faq-answer"><p>Yes. Members can upgrade or downgrade their plan at any point. Changes take effect from the next billing cycle.</p></div>
         </div>
         <div class="faq-item" data-accordion>
-          <button class="faq-question" type="button">Is the site mobile friendly?<span>+</span></button>
-          <div class="faq-answer"><p>Yes. The layout is responsive and adjusts for mobile, tablet, and desktop screens.</p></div>
+          <button class="faq-question" type="button">Is there a joining fee?<span>+</span></button>
+          <div class="faq-answer"><p>There is a one-time registration fee of ₹500 for new members. This covers your initial fitness assessment and member welcome pack.</p></div>
+        </div>
+        <div class="faq-item" data-accordion>
+          <button class="faq-question" type="button">Is a free trial available?<span>+</span></button>
+          <div class="faq-answer"><p>Yes. New members can attend one free trial session before signing up. Use the contact form to request your trial visit.</p></div>
+        </div>
+        <div class="faq-item" data-accordion>
+          <button class="faq-question" type="button">What happens if I miss sessions?<span>+</span></button>
+          <div class="faq-answer"><p>Missed personal coaching sessions on Trainer Plus and All Access can be rescheduled with at least 12 hours notice. Open gym access is always available within operating hours.</p></div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Start for Free. Stay for the Results.</h2>
+        <p>Book your free trial session today. No pressure, no commitment until you are ready.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-white btn-lg" href="contact.html">Book Free Trial</a>
+        <a class="btn btn-outline-white btn-lg" href="programs.html">View Programs</a>
+      </div>
+    </div>
+  </section>
+
 </main>
+
 <footer class="footer">
-  <div class="container footer-inner">
-    <a class="brand footer-brand" href="index.html" aria-label="Back to home">
-      <span class="brand-mark">A</span>
-      <span class="brand-text">AlphaFit Gym</span>
-    </a>
-    <p>© 2026 AlphaFit Gym.</p>
+  <div class="container footer-shell">
+    <div class="footer-grid">
+      <article class="footer-copy">
+        <a class="brand footer-brand" href="index.html" aria-label="Back to home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AlphaFit Gym</span>
+        </a>
+        <p>AlphaFit Gym is a modern training space built for people who want practical coaching, thoughtful programming, and a place that makes consistency easier.</p>
+        <span class="tag">Strength, Recovery and Nutrition Under One Roof</span>
+      </article>
+      <nav aria-label="Footer quick links">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About the gym</a></li>
+          <li><a href="programs.html">Training programs</a></li>
+          <li><a href="nutrition.html">Nutrition guidance</a></li>
+          <li><a href="membership.html">Membership plans</a></li>
+          <li><a href="contact.html">Book a session</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3 class="footer-title">Hours</h3>
+        <ul class="footer-contact">
+          <li><strong>Monday to Friday</strong>6:00 AM – 10:00 PM</li>
+          <li><strong>Saturday</strong>7:00 AM – 9:00 PM</li>
+          <li><strong>Sunday</strong>8:00 AM – 1:00 PM</li>
+        </ul>
+      </section>
+      <address class="footer-address">
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-contact">
+          <li><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><strong>Email</strong><a href="mailto:contact@alphafitgym.com">contact@alphafitgym.com</a></li>
+          <li><strong>Location</strong>24 Lake View Road, Kolkata</li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 AlphaFit Gym. Built for stronger habits and steady progress.</p>
+      <span class="tag">Open for Consultations and Trial Sessions</span>
+    </div>
   </div>
 </footer>
 
-<button class="scroll-top" data-scroll-top aria-label="Scroll to top">↑</button>
+<button class="scroll-top" data-scroll-top aria-label="Scroll to top">&#8593;</button>
 <script src="script.js"></script>
 </body>
 </html>

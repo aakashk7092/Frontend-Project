@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://images.unsplash.com" />
-<link rel="preconnect" href="https://unsplash.com" crossorigin />
-<link rel="preload" as="image" href="https://unsplash.com/photos/buWcS7G1_28/download?force=true" />
+<meta name="description" content="AlphaFit Gym training programs — Strength, cardio, yoga, and mobility sessions shaped for every fitness goal." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="style.css" />
-  <title>AlphaFit Gym | Programs</title>
+<title>AlphaFit Gym | Training Programs</title>
 </head>
 <body>
+
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="index.html" aria-label="AlphaFit Gym home">
       <span class="brand-mark">A</span>
       <span class="brand-text">AlphaFit Gym</span>
     </a>
-
-    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">☰</button>
-
+    <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle navigation">&#9776;</button>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">Light mode</button>
     <nav class="nav-links" data-nav-links>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -29,87 +29,247 @@
     </nav>
   </div>
 </header>
+
 <main>
-  <section class="page-hero" style="--hero-image: url('https://unsplash.com/photos/buWcS7G1_28/download?force=true');">
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="--hero-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&q=80');">
     <div class="container page-hero-inner reveal">
-      <span class="badge">Training programs</span>
-      <h1>Programs for every fitness goal.</h1>
+      <span class="badge">Training Programs</span>
+      <h1>Programs Shaped Around Strength, Stamina, Movement, and Lasting Progress.</h1>
+      <p>Choose a style that matches your body, your confidence level, and the result you want to work toward.</p>
     </div>
   </section>
 
+  <!-- POPULAR SESSIONS -->
   <section class="section">
     <div class="container">
       <div class="section-heading reveal">
-        <span class="badge">Popular sessions</span>
-        <h2>Choose your training style</h2>
+        <span class="badge">Popular Sessions</span>
+        <h2>Choose Your Training Style</h2>
+        <p>Every option is structured to give members a clear focus instead of a random workout experience.</p>
       </div>
       <div class="grid-3">
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/buWcS7G1_28/download?force=true" alt="Strength training session" loading="lazy" decoding="async" /></div>
-          <div class="card-body"><span class="tag">Strength</span><h3>Strength training</h3><p>Learn proper lifting technique, progressive overload, and gym confidence in a structured plan.</p></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80" alt="Strength training session" loading="lazy" decoding="async" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Strength</span>
+            <h3>Strength Training</h3>
+            <p>Learn proper lifting technique, progressive overload, and gym confidence in a structured plan with coach feedback.</p>
+            <ul class="program-list">
+              <li>Barbell squat, Romanian deadlift, bench press, pull-down, seated row</li>
+              <li>Progressive loading for muscle gain and raw strength</li>
+              <li>Best for beginners, intermediates, and body recomposition</li>
+            </ul>
+          </div>
         </article>
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/J2PUYtMwjac/download?force=true" alt="Cardio training" loading="lazy" decoding="async" /></div>
-          <div class="card-body"><span class="tag">Cardio</span><h3>Endurance and fat burn</h3><p>Cardio sessions improve stamina, boost energy, and help members stay active in a balanced way.</p></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&q=80" alt="Cardio training" loading="lazy" decoding="async" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Cardio</span>
+            <h3>Endurance and Fat Burn</h3>
+            <p>Cardio sessions improve stamina, boost energy, and help members stay active in a sustainable way.</p>
+            <ul class="program-list">
+              <li>Treadmill intervals, bike sprints, rowing, battle ropes, sled pushes</li>
+              <li>Heart-rate-based training for fat loss and conditioning</li>
+              <li>Ideal for stamina, calorie expenditure, and athletic fitness</li>
+            </ul>
+          </div>
         </article>
         <article class="card reveal">
-          <div class="card-media"><img src="https://unsplash.com/photos/t1NEMSm1rgI/download?force=true" alt="Yoga and stretching" loading="lazy" decoding="async" /></div>
-          <div class="card-body"><span class="tag">Mobility</span><h3>Yoga and recovery</h3><p>Stretching and mobility work help the body recover while making workouts feel more relaxed.</p></div>
+          <div class="card-media">
+            <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=600&q=80" alt="Yoga and stretching" loading="lazy" decoding="async" />
+          </div>
+          <div class="card-body">
+            <span class="tag">Mobility</span>
+            <h3>Yoga and Recovery</h3>
+            <p>Stretching and mobility work help the body recover, move better, and reduce stiffness that slows progress.</p>
+            <ul class="program-list">
+              <li>Dynamic warm-ups, yoga flows, recovery breathing, deep stretch work</li>
+              <li>Improves posture, flexibility, control, and joint comfort</li>
+              <li>Useful for office workers, lifters, and returning members</li>
+            </ul>
+          </div>
         </article>
       </div>
     </div>
   </section>
 
+  <!-- EXERCISE LIBRARY -->
   <section class="section alt-section">
-    <div class="container split-layout">
-      <div class="card reveal">
+    <div class="container">
+      <div class="section-heading reveal">
+        <span class="badge">Exercise Library</span>
+        <h2>Core Movements We Coach Regularly</h2>
+        <p>Professional training is built on repeatable movement patterns that are coached well and progressed responsibly.</p>
+      </div>
+      <div class="exercise-library">
+        <article class="exercise-group reveal">
+          <h3>Upper Body Strength</h3>
+          <ul class="exercise-list">
+            <li><strong>Bench Press</strong><span>Chest, shoulders, triceps, pressing power</span></li>
+            <li><strong>Incline Dumbbell Press</strong><span>Upper chest development and shoulder stability</span></li>
+            <li><strong>Seated Cable Row</strong><span>Mid-back strength and posture support</span></li>
+            <li><strong>Lat Pulldown</strong><span>Back width, grip strength, and pulling mechanics</span></li>
+            <li><strong>Overhead Press</strong><span>Shoulder strength and full-body bracing</span></li>
+          </ul>
+        </article>
+        <article class="exercise-group reveal">
+          <h3>Lower Body Strength</h3>
+          <ul class="exercise-list">
+            <li><strong>Back Squat</strong><span>Leg strength, hip drive, and total-body control</span></li>
+            <li><strong>Romanian Deadlift</strong><span>Hamstrings, glutes, and posterior chain strength</span></li>
+            <li><strong>Walking Lunges</strong><span>Single-leg balance, quad strength, and conditioning</span></li>
+            <li><strong>Leg Press</strong><span>Lower body volume and controlled loading</span></li>
+            <li><strong>Hip Thrust</strong><span>Glute power and lockout strength</span></li>
+          </ul>
+        </article>
+        <article class="exercise-group reveal">
+          <h3>Conditioning and Core</h3>
+          <ul class="exercise-list">
+            <li><strong>Kettlebell Swings</strong><span>Explosive hip drive and metabolic conditioning</span></li>
+            <li><strong>Farmer Carries</strong><span>Grip strength, core stiffness, and work capacity</span></li>
+            <li><strong>Battle Ropes</strong><span>Upper-body conditioning and power endurance</span></li>
+            <li><strong>Plank Variations</strong><span>Core control, spinal support, and stability</span></li>
+            <li><strong>Sled Pushes</strong><span>Leg drive, power, and low-impact conditioning</span></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHEDULE + GOALS -->
+  <section class="section">
+    <div class="container split-layout top">
+      <article class="card reveal">
         <div class="card-body">
-          <span class="tag">Weekly schedule</span>
-          <h3>Sample class rotation</h3>
+          <span class="tag">Weekly Schedule</span>
+          <h3>Sample Class Rotation</h3>
           <div class="table-wrap">
             <table class="data-table">
               <thead>
                 <tr><th>Day</th><th>Morning</th><th>Evening</th></tr>
               </thead>
               <tbody>
-                <tr><td>Mon</td><td>Strength</td><td>Cardio</td></tr>
-                <tr><td>Tue</td><td>Yoga</td><td>Functional training</td></tr>
-                <tr><td>Wed</td><td>Strength</td><td>Core + mobility</td></tr>
-                <tr><td>Thu</td><td>Cardio</td><td>Yoga</td></tr>
-                <tr><td>Fri</td><td>Full body</td><td>Stretching</td></tr>
+                <tr><td>Mon</td><td>Upper body push and pull</td><td>Conditioning intervals</td></tr>
+                <tr><td>Tue</td><td>Lower body strength</td><td>Functional training</td></tr>
+                <tr><td>Wed</td><td>Mobility and recovery</td><td>Core and posture</td></tr>
+                <tr><td>Thu</td><td>Full body hypertrophy</td><td>Bike and row intervals</td></tr>
+                <tr><td>Fri</td><td>Strength technique</td><td>Yoga and stretching</td></tr>
+                <tr><td>Sat</td><td>Open gym / Personal training</td><td>Group conditioning</td></tr>
               </tbody>
             </table>
           </div>
         </div>
-      </div>
+      </article>
 
       <div class="content-block reveal">
-        <span class="badge">Goal-based training</span>
-        <h2>Pick what suits you</h2>
+        <span class="badge">Goal-Based Training</span>
+        <h2>Pick What Suits You</h2>
         <div class="detail-list">
-          <div class="detail-item"><span class="dot"></span><div><strong>Weight loss</strong><p>Cardio, guided calorie burn, and healthy routine support.</p></div></div>
-          <div class="detail-item"><span class="dot"></span><div><strong>Muscle gain</strong><p>Progressive overload, protein focus, and strength blocks.</p></div></div>
-          <div class="detail-item"><span class="dot"></span><div><strong>Flexibility</strong><p>Stretching, mobility, yoga, and recovery sessions.</p></div></div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Weight Loss</strong>
+              <p>Cardio intervals, calorie-burning circuits, daily movement goals, and realistic nutrition support.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Muscle Gain</strong>
+              <p>Progressive overload, isolation accessories, recovery planning, and higher-protein meal structure.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Athletic Fitness</strong>
+              <p>Explosive movement, sled work, carries, sprint conditioning, and improved total-body coordination.</p>
+            </div>
+          </div>
+          <div class="detail-item">
+            <span class="dot"></span>
+            <div>
+              <strong>Mobility and Recovery</strong>
+              <p>Yoga flows, deep stretching, breathwork, and techniques to undo the damage of desk work.</p>
+            </div>
+          </div>
         </div>
-        <div class="hero-actions">
+        <div style="margin-top:32px; display:flex; gap:14px; flex-wrap:wrap;">
           <a class="btn btn-primary" href="contact.html">Book a Class</a>
           <a class="btn btn-secondary" href="membership.html">See Plans</a>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Find Your Perfect Program</h2>
+        <p>Not sure which program is right for you? Book a free consultation with one of our coaches.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-white btn-lg" href="contact.html">Get Guidance</a>
+        <a class="btn btn-outline-white btn-lg" href="membership.html">View Plans</a>
+      </div>
+    </div>
+  </section>
+
 </main>
+
 <footer class="footer">
-  <div class="container footer-inner">
-    <a class="brand footer-brand" href="index.html" aria-label="Back to home">
-      <span class="brand-mark">A</span>
-      <span class="brand-text">AlphaFit Gym</span>
-    </a>
-    <p>© 2026 AlphaFit Gym.</p>
+  <div class="container footer-shell">
+    <div class="footer-grid">
+      <article class="footer-copy">
+        <a class="brand footer-brand" href="index.html" aria-label="Back to home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AlphaFit Gym</span>
+        </a>
+        <p>AlphaFit Gym is a modern training space built for people who want practical coaching, thoughtful programming, and a place that makes consistency easier.</p>
+        <span class="tag">Strength, Recovery and Nutrition Under One Roof</span>
+      </article>
+      <nav aria-label="Footer quick links">
+        <h3 class="footer-title">Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="about.html">About the gym</a></li>
+          <li><a href="programs.html">Training programs</a></li>
+          <li><a href="nutrition.html">Nutrition guidance</a></li>
+          <li><a href="membership.html">Membership plans</a></li>
+          <li><a href="contact.html">Book a session</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h3 class="footer-title">Hours</h3>
+        <ul class="footer-contact">
+          <li><strong>Monday to Friday</strong>6:00 AM – 10:00 PM</li>
+          <li><strong>Saturday</strong>7:00 AM – 9:00 PM</li>
+          <li><strong>Sunday</strong>8:00 AM – 1:00 PM</li>
+        </ul>
+      </section>
+      <address class="footer-address">
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-contact">
+          <li><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><strong>Email</strong><a href="mailto:contact@alphafitgym.com">contact@alphafitgym.com</a></li>
+          <li><strong>Location</strong>24 Lake View Road, Kolkata</li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; 2026 AlphaFit Gym. Built for stronger habits and steady progress.</p>
+      <span class="tag">Open for Consultations and Trial Sessions</span>
+    </div>
   </div>
 </footer>
 
-<button class="scroll-top" data-scroll-top aria-label="Scroll to top">↑</button>
+<button class="scroll-top" data-scroll-top aria-label="Scroll to top">&#8593;</button>
 <script src="script.js"></script>
 </body>
 </html>
