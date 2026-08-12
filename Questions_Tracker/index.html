@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Amazon Interview Prep</h1>
+            <p class="subtitle">Track your LeetCode progress and ace your interviews</p>
+            <div class="progress-summary">
+                <div class="stat-card">
+                    <span class="stat-value" id="totalCompleted">0</span>
+                    <span class="stat-label">Completed</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="totalQuestions">0</span>
+                    <span class="stat-label">Total Questions</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="progressPercentage">0%</span>
+                    <span class="stat-label">Progress</span>
+                </div>
+            </div>
+        </header>
+
+        <nav class="company-tabs">
+            <div class="tabs-container" id="companyTabs">
+                <!-- Company tabs will be generated dynamically -->
+            </div>
+        </nav>
+
+        <main>
+            <div class="controls">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search questions by title or topic...">
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                    <button class="filter-btn" data-filter="pending">Pending</button>
+                </div>
+                <div class="difficulty-filter">
+                    <label>
+                        <input type="checkbox" value="EASY" checked> Easy
+                    </label>
+                    <label>
+                        <input type="checkbox" value="MEDIUM" checked> Medium
+                    </label>
+                    <label>
+                        <input type="checkbox" value="HARD" checked> Hard
+                    </label>
+                </div>
+            </div>
+
+            <div class="company-progress">
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="companyProgressBar">
+                        <div class="progress-fill" id="companyProgressFill"></div>
+                    </div>
+                    <span class="progress-text" id="companyProgressText">0 / 0 (0%)</span>
+                </div>
+            </div>
+
+            <div class="questions-container" id="questionsContainer">
+                <p class="loading-message">Select a company to view questions...</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
